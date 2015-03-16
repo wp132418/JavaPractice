@@ -12,7 +12,7 @@ package org.dimigo.basic;
 public class PrimitiveDataType {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub.
 		String Name = "아이유";
 		boolean gender = true;
 		int age = 23;
