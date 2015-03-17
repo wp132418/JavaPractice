@@ -1,4 +1,12 @@
 package org.dimigo.basic;
+/*
+ * 
+ * 디미베네 연간 인건비 출력하기
+ * 작성일자 : 2015. 03. 17
+ * @author 양권우
+ * @version 1.0
+ * 
+ */
 
 public class Promotion {
 
