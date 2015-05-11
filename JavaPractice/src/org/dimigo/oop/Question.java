@@ -22,6 +22,7 @@ public class Question {
 	/**
 	 * @param args
 	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
@@ -55,6 +56,8 @@ public class Question {
 		else {
 			System.out.println("틀렸습니다!! ㅜㅜ");
 		}
+		
+		scanner.close();
 	}
 
 }
