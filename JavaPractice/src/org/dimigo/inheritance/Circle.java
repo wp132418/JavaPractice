@@ -19,7 +19,7 @@ public class Circle extends Figure {
 	private int radius;
 
 	public Circle(int radius) {
-		this(0, 0, radius);
+		this.radius = radius;
 	}
 	
 	public Circle(int centerX, int centerY, int radius) {
