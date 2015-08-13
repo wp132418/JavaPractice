@@ -31,5 +31,8 @@ public class Circle extends Figure {
 		return (3.14 * radius * radius);
 	}
 
-	
+	protected void printCenter() {
+		System.out.print("원 ");
+		super.printCenter();
+	}
 }
