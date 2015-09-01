@@ -24,8 +24,7 @@ public class IPhone extends SmartPhone{
 	}
 	
 	public void pay() {
-		System.out.print("애플");
-		super.pay();
+		System.out.println("애플페이로 결제합니다");
 	}
 	
 	public void useAirDrop() {

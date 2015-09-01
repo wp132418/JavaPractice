@@ -29,16 +29,14 @@ public abstract class SmartPhone {
 		this.price = price;
 	}
 	
+	public abstract void pay();
+	
 	public void turnOn() {
 		System.out.println( model + "의 전원을 켭니다");
 	}
 	
 	public void turnOff() {
 		System.out.println( model + "의 전원을 끕니다");
-	}
-	
-	public void pay() {
-		System.out.println(" 페이로 결제합니다");
 	}
 	
 	public void useSpecialFuction(SmartPhone phone) {

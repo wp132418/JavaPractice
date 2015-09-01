@@ -24,8 +24,7 @@ public class Galaxy extends SmartPhone{
 	}
 	
 	public void pay() {
-		System.out.print("삼성");
-		super.pay();
+		System.out.println("삼성페이로 결제합니다");
 	}
 	
 	public void useWirelessCharging() {
