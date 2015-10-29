@@ -99,7 +99,7 @@ public class NaverSearch {
 	        // files/movies.txt 파일에 write하기
 	        int i = 1;
 	        for(Movie m : movieList) {
-	        	writer.write(i++ + " " + m.getTitle() + " - " + m.getActors() + "\n");
+	        	writer.write(i++ + ". " + m.getTitle() + " - " + m.getActors() + "\n");
 	        }
 	        
 	    } catch (IOException e) {
