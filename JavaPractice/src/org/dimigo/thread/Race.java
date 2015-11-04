@@ -23,8 +23,8 @@ public class Race {
 	public static void main(String[] args) {
 		System.out.println("main thread start");
 		
-		Thread t1 = new Runner("파오후");
-		Thread t2 = new Runner("쿰척쿰척");
+		Thread t1 = new Runner("메시");
+		Thread t2 = new Runner("호날두");
 		
 		
 		t1.start();
